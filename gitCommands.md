@@ -93,6 +93,9 @@ Then push:
  git pull origin master
  git push origin master
 
+ 
+ ## copy youtube
+
  Pull before push ALWAYS:
 
 	git pull origin master
@@ -138,7 +141,6 @@ Merge a branch:
 
 
 Delete a branch:
-
 	git branch -d <name of the branch> - this deletes it locally!!!
 
 	git branch -a - check the repo branches 
