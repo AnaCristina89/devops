@@ -55,6 +55,17 @@ Working directory is clean that's because we've commited those files and now we 
 
 git log
 
+
+## Connect your local project folder to your empty folder/repository on Github.
+
+Copy the link in the input right beneath the title.
+
+
+    Go back to your project in the terminal/command line.
+
+    In your terminal/command line, type git remote add origin [copied web address]
+
+
 ## Cloning a remote repo
 
 cd Cloned-Repo/
