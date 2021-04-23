@@ -15,7 +15,7 @@ git help config
 git config --help
 git add help 
 
-### Initialize a repository from existing code
+## Initialize a repository from existing code
 In the local directory or repo: cd Local-Repo
 git init
 
@@ -42,8 +42,38 @@ git reset file_name.ext
 
 git status
 
+
 ### Our first commit
+
 git add -A
 git commit -m "Initial commit"
 git status
+Working directory is clean that's because we've commited those files and now we don't have any modified or untracked files
+
 git log
+
+## Cloning a remote repo
+
+cd Cloned-Repo/
+ls -la (clean repo)
+
+git clone <url> <where to clone>
+git clone ../remote_repo.git .
+
+### Viewing information about the remote repository
+
+git remote -v
+git branch -a
+
+### Pushing changes
+ 
+diff is going to  show me the changes that i have made to the code
+
+git diff
+git status
+git add -A
+git commit -m "Modified multiply function"
+
+Then push:
+ git pull origin master
+ git push origin master
